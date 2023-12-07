@@ -111,26 +111,9 @@ a {
     font-size: 16px;
 }
 
-
-.container{
-    height: 200vh;
-}
-
-.scroll-centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow-y: auto;
-    box-sizing: border-box;
-  }
-
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+text-effect{
+    display: inline;
+    vertical-align: middle;
+    border-right: .05em solid black;
+    animation: cursor 0.2s ease infinite;
 }
